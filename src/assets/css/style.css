@@ -23,7 +23,7 @@
 @media screen and (min-width: 768px) {
   :root {
     --nav-name-font-size: 1rem;
-    --normal-font-size: 1rem;
+    --normal-font-size: 0.8rem;
   }
 }
 
@@ -83,14 +83,14 @@ a {
 }
 
 .header__icon {
-    margin: 0 10px; /* Adds horizontal spacing around the icons */
+    margin: 0 4px; /* Adds horizontal spacing around the icons */
 }
   
 .header__icon img {
     height: 1.5rem; /* Sets a fixed height for the icons for consistency */
     width: auto; /* Ensures the width adjusts to maintain the aspect ratio */
 }
-  
+
 /*===== NAV =====*/
 @media screen and (max-width: 768px) {
   .nav {
@@ -244,7 +244,6 @@ a {
   }
   .nav__content {
     flex-direction: row; /* Changes the flex direction on larger screens */
-    justify-content: center; /* Centers the navigation items horizontally */
     width: 100%; /* Ensures the nav content spans the full width of its container */
   }
   .nav__img {
@@ -290,6 +289,9 @@ a {
   }
   .dropdown__item {
     margin: .5rem 0;
+  }
+  .bd-grid {
+    margin-left: 0;
   }
 }
 
