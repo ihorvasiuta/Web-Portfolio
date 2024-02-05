@@ -346,3 +346,10 @@ a {
   object-fit: contain;
 }
 
+
+.social_icons {
+  width: auto;
+  display: flex;
+  margin-left: auto;
+
+}
