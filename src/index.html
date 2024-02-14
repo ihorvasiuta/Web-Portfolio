@@ -1,65 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
-        
-        <!-- ===== CSS ===== -->
-        <link rel="stylesheet" href="assets/css/style.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <title>My web-portfolio</title>
-    </head>
-    <body>
-        <header class="header">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
-            <a href="#" class="header__logo">Ihor Vasiuta</a>
-            <i class='bx bx-menu header__toggle' id="header-toggle"></i>
-        
-            <nav class="nav" id="nav-menu">
-                <div class="nav__content bd-grid">
-                    <div class="nav__menu">
-                        <ul class="nav__list">
-                            <li class="nav__item"><a href="#" class="nav__link active">Home</a></li>
-                            <li class="nav__item dropdown">
-                                <a href="#" class="nav__link dropdown__link">About <i class='bx bx-chevron-down dropdown__icon'></i></a>
-                                <ul class="dropdown__menu">
-                                    <li class="dropdown__item"><a href="#" class="nav__link">About me</a></li>
-                                    <li class="dropdown__item"><a href="#" class="nav__link">Location</a></li>
-                                    <li class="dropdown__item"><a href="#" class="nav__link">Studies</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav__item"><a href="#" class="nav__link">Skills</a></li>
-                            <li class="nav__item dropdown">
-                                <a href="#" class="nav__link dropdown__link">Works <i class='bx bx-chevron-down dropdown__icon'></i></a>
-                                <ul class="dropdown__menu">
-                                    <li class="dropdown__item"><a href="#" class="nav__link">Recent jobs</a></li>
-                                    <li class="dropdown__item"><a href="#" class="nav__link">Better jobs</a></li>
-                                    <li class="dropdown__item"><a href="#" class="nav__link">Work Awards</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
-                        </ul>
-                    </div>
-                    <div class="social_icons">
-                        <a href="https://github.com/ihorvasiuta" class="header__icon" target="_blank">
-                            <img src="assets/img/github-icon.svg" alt="GitHub">
-                        </a>
-                        <a href="https://www.linkedin.com/in/ihor-vasiuta-0177aa292/" class="header__icon" target="_blank">
-                            <img src="assets/img/linkedin-icon.svg" alt="LinkedIn">
-                        </a>
-                        <a href="https://t.me/mr_ihrv" class="header__icon" target="_blank">
-                            <img src="assets/img/telegram-icon.svg" alt="Telegram">
-                        </a>
-                    </div>
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>My web-portfolio</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="nav">
+            <div class="nav__content bd-grid">
+                <a href="#" class="header__logo">Ihor Vasiuta</a>
+
+                <div class="nav__menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Projects</a></li>
+                    </ul>
                 </div>
-            </nav>
 
-        </header>
-        
+                <div class="social_icons">
+                    <a href="https://github.com/ihorvasiuta" class="header__icon icon" target="_blank">
+                        <img src="icons/github-icon.svg" alt="GitHub">
+                    </a>
+                    <a href="https://www.linkedin.com/in/ihor-vasiuta-0177aa292/" class="header__icon icon"
+                        target="_blank">
+                        <img src="icons/linkedin-icon.svg" alt="LinkedIn">
+                    </a>
+                    <a href="https://t.me/mr_ihrv" class="header__icon icon" target="_blank">
+                        <img src="icons/telegram-icon.svg" alt="Telegram">
+                    </a>
+                </div>
 
-        <!--===== MAIN JS =====-->
-        <script src="assets/js/script.js"></script>
-    </body>
+                <div class="toggle_btn">
+                    <i class='bx bx-menu header__toggle' id="header-toggle"></i>
+                </div>
+
+                <div class="dropdown_menu">
+                    <li class="nav__item dropdown__item"><a href="#" class="nav__link active">Home</a></li>
+                    <li class="nav__item dropdown__item"><a href="#" class="nav__link">About</a></li>
+                    <li class="nav__item dropdown__item"><a href="#" class="nav__link">Works</a></li>
+                    <li class="nav__item dropdown__item"><a href="#" class="nav__link">Contact</a></li>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <section class="first_page">
+        <div class="free_space"></div>
+        <div class="container">
+            <div class="coalescence">
+                <div class="right_wrapper">
+                    <h1>Hello There!</h1>
+                    <p class="text_example">Tech Lead, Research Engineer at Facebook AI Research (FAIR) with 10+ years
+                        of industry experience (7+ years in Facebook) working on challenges of reasoning, navigation and
+                        question answering using deep learning. Passionate about Human level Artificial Intelligence.
+                        Has strong mathematical and algorithmic background with Ph.D. in Computer Science. Proven record
+                        of shipped in production impactful projects in NLP and machine learning domain, developed highly
+                        scalable systems with billions of users, first author publications in top tier conferences in AI
+                        CVPR2019, ICCV2019, co-organizer of CVPR EmbodiedAI Workshops 2019-2022.
+                    </p>
+                </div>
+                <div class="left_wrapper">
+                    <img class="profile_photo" src="img/profilepicture_blured.png" alt="Profile Picture">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects_page">
+        <div class="container">
+
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container ft_container">
+            <div class="cn_endblock">
+                <div class="contact_endblock">
+                    <p class="contact">Contact me</p>
+                    <div class="ft_icons">
+                        <img src="icons/email-footer.png" alt="Email Icon" class="email_icon ft_icon icon">
+                        <img src="icons/telegram-footer.png" alt="Telegram Icon" class="telegram_icon ft_icon icon">
+                        <img src="icons/linkedin-footer.png" alt="LinkedIn Icon" class="linkedin_icon ft_icon icon">
+                        <img src="icons/github-footer.png" alt="GitHub Icon" class="github_icon ft_icon icon">
+                        <img src="icons/instagram-footer.png" alt="Instagram Icon" class="instagram_icon ft_icon icon">
+                        <img src="icons/twitter-footer.png" alt="Twitter Icon" class="twitter_icon ft_icon icon">
+                    </div>
+                    <p class="c_name"> © 2024 Ihor Vasiuta</p>
+                </div>
+                <div class="joinprojects_endblock">
+                    <h2 class="footer_jointitle">Join my projects!</h2>
+                    <p class="join_hope">We are working on a lot of interesting projects, we will glad u to join :></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--===== MAIN JS =====-->
+    <script src="js/script.js"></script>
+</body>
+
 </html>
