@@ -334,9 +334,15 @@ a {
 }
 
 .profile_photo {
-  height: 20rem;
+  height: 17rem;
+  background: #9d9d9d;
   /* Sets a fixed height for the icons for consistency */
-  width: 40% auto;
+  /* width: 40% auto; */
+  width: 17rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }
 
 
@@ -344,6 +350,7 @@ a {
   display: flex;
   justify-content: space-between;
   flex-direction: row-reverse;
+  margin-top: 2rem;
 }
 
 .footer {
